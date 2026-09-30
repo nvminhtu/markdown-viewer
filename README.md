@@ -8,7 +8,7 @@ Free for macOS and Windows · no account · nothing leaves your computer</p>
 <p align="center">
   <a href="https://github.com/nvminhtu/markdown-viewer/releases/latest/download/Markdown-Viewer-mac.dmg"><b>⬇ Download for Mac</b></a> ·
   <a href="https://github.com/nvminhtu/markdown-viewer/releases/latest/download/Markdown-Viewer-windows-setup.exe"><b>⬇ Download for Windows</b></a> ·
-  <a href="https://oneclicktool.app/macos/markdown-viewer?utm_source=github&utm_medium=readme&utm_campaign=markdown-viewer">Website</a>
+  <a href="https://oneclicktool.app/desktop/markdown-viewer?utm_source=github&utm_medium=readme&utm_campaign=markdown-viewer">Website</a>
 </p>
 
 Point it at your docs, notes, research or AI skills folder and see every Markdown file at a glance: as a
@@ -84,7 +84,7 @@ no analytics and no ads.
 ## Support
 
 - Questions or bugs: [open an issue](https://github.com/nvminhtu/markdown-viewer/issues) (include your OS version).
-- Website: [oneclicktool.app](https://oneclicktool.app/macos/markdown-viewer?utm_source=github&utm_medium=readme&utm_campaign=markdown-viewer)
+- Website: [oneclicktool.app](https://oneclicktool.app/desktop/markdown-viewer?utm_source=github&utm_medium=readme&utm_campaign=markdown-viewer)
 
 Made by [OneClickTool](https://oneclicktool.app/?utm_source=github&utm_medium=readme&utm_campaign=markdown-viewer).
 This repository hosts the downloads; the source code is not published here.
