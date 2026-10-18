@@ -1,13 +1,13 @@
-<p align="center"><img src="icon.png" width="96" alt="Markdown Viewer icon"></p>
+<p align="center"><img src="icon.png" width="96" alt="Markdown Everywhere icon"></p>
 
-<h1 align="center">Markdown Viewer</h1>
+<h1 align="center">Markdown Everywhere</h1>
 
 <p align="center"><b>Make sense of a folder full of <code>.md</code> files.</b><br>
 Free for macOS and Windows · no account · nothing leaves your computer</p>
 
 <p align="center">
-  <a href="https://github.com/nvminhtu/markdown-viewer/releases/latest/download/Markdown-Viewer-mac.dmg"><b>⬇ Download for Mac</b></a> ·
-  <a href="https://github.com/nvminhtu/markdown-viewer/releases/latest/download/Markdown-Viewer-windows-setup.exe"><b>⬇ Download for Windows</b></a> ·
+  <a href="https://github.com/nvminhtu/markdown-viewer/releases/latest/download/Markdown-Everywhere-Free-mac.dmg"><b>⬇ Download for Mac</b></a> ·
+  <a href="https://github.com/nvminhtu/markdown-viewer/releases/latest/download/Markdown-Everywhere-Free-windows-setup.exe"><b>⬇ Download for Windows</b></a> ·
   <a href="https://oneclicktool.app/desktop/markdown-everywhere?utm_source=github&utm_medium=readme&utm_campaign=markdown-viewer">Website</a>
 </p>
 
@@ -21,9 +21,8 @@ its links, and jump back.
 
 | Platform | File | Size |
 |---|---|---|
-| **macOS** 11 or later, Apple silicon & Intel | [Markdown-Viewer-mac.dmg](https://github.com/nvminhtu/markdown-viewer/releases/latest/download/Markdown-Viewer-mac.dmg) | 10 MB |
-| **Windows** 10 / 11, 64-bit (recommended) | [Markdown-Viewer-windows-setup.exe](https://github.com/nvminhtu/markdown-viewer/releases/latest/download/Markdown-Viewer-windows-setup.exe) | 3.4 MB |
-| **Windows** MSI, for IT / silent install | [Markdown-Viewer-windows.msi](https://github.com/nvminhtu/markdown-viewer/releases/latest/download/Markdown-Viewer-windows.msi) | 4.1 MB |
+| **macOS** 11 or later, Apple silicon & Intel | [Markdown-Everywhere-Free-mac.dmg](https://github.com/nvminhtu/markdown-viewer/releases/latest/download/Markdown-Everywhere-Free-mac.dmg) | 12 MB |
+| **Windows** 10 / 11, 64-bit | [Markdown-Everywhere-Free-windows-setup.exe](https://github.com/nvminhtu/markdown-viewer/releases/latest/download/Markdown-Everywhere-Free-windows-setup.exe) | 4.6 MB |
 
 The links always give you the newest version. Older versions and checksums (`SHA256SUMS.txt`):
 [Releases](https://github.com/nvminhtu/markdown-viewer/releases).
@@ -32,36 +31,23 @@ The links always give you the newest version. Older versions and checksums (`SHA
 
 ### macOS
 
-1. Open **Markdown-Viewer-mac.dmg** and drag **Markdown Viewer** onto the **Applications** folder.
-2. Open **Markdown Viewer** from Applications.
-3. The first time, macOS says *"Markdown Viewer" Not Opened – Apple could not verify…*. Click **Done**.
-   This version is not notarized by Apple yet; a notarized build is on the way.
-4. Open **System Settings → Privacy & Security**, scroll down to *"Markdown Viewer" was blocked…* and click
-   **Open Anyway**, then enter your Mac password and click **Open**.
-5. That's it. From now on it opens normally.
-
-<details><summary>Still blocked? (advanced)</summary>
-
-In Terminal, remove the download flag, then open the app again:
-
-```bash
-xattr -dr com.apple.quarantine "/Applications/Markdown Viewer.app"
-```
-</details>
+1. Open **Markdown-Everywhere-Free-mac.dmg** and drag the app onto the **Applications** folder
+   (the Mac build 0.2.0 is still named *Markdown Viewer*; the next update carries the new name).
+2. Open it from Applications. It is signed and notarized by Apple, so it opens normally.
 
 ### Windows
 
-1. Run **Markdown-Viewer-windows-setup.exe**.
+1. Run **Markdown-Everywhere-Free-windows-setup.exe**.
 2. If you see *"Windows protected your PC"* (SmartScreen), click **More info → Run anyway**. The installer is not
    code-signed yet.
-3. Follow the installer. Markdown Viewer appears in the Start menu.
+3. Follow the installer. Markdown Everywhere appears in the Start menu.
 
 Windows 10 may download Microsoft Edge WebView2 during setup if it isn't installed yet (Windows 11 has it).
 
 ### Uninstall
 
-- **macOS:** drag *Markdown Viewer* from Applications to the Trash.
-- **Windows:** Settings → Apps → Installed apps → *Markdown Viewer* → Uninstall.
+- **macOS:** drag *Markdown Everywhere* (or *Markdown Viewer*) from Applications to the Trash.
+- **Windows:** Settings → Apps → Installed apps → *Markdown Everywhere* → Uninstall.
 
 ## What it does
 
@@ -78,7 +64,7 @@ Windows 10 may download Microsoft Edge WebView2 during setup if it isn't install
 
 ## Privacy
 
-Markdown Viewer only **reads** the folders you add. It never edits, moves or uploads your files, has no account,
+Markdown Everywhere only **reads** the folders you add. It never edits, moves or uploads your files, has no account,
 no analytics and no ads.
 
 ## Support
@@ -87,4 +73,4 @@ no analytics and no ads.
 - Website: [oneclicktool.app](https://oneclicktool.app/desktop/markdown-everywhere?utm_source=github&utm_medium=readme&utm_campaign=markdown-viewer)
 
 Made by [OneClickTool](https://oneclicktool.app/?utm_source=github&utm_medium=readme&utm_campaign=markdown-viewer).
-This repository hosts the downloads; the source code is not published here.
+Formerly called Markdown Viewer. This repository hosts the downloads; the source code is not published here.
